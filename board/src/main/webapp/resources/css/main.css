@@ -1,0 +1,58 @@
+/*정적인 파일*/
+@import
+url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+                                                        /*폰트레이어트*/
+/*전체선택자*/
+* {
+    font-family: Noto Sans KR;
+}
+
+.avatar-sm{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.jumbotron{
+    background-image: url('/resources/images/img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    padding-top: 1rem;
+    margin-top : 0.3rem;
+}
+.r{
+    text-align: center;
+    background-color: red;
+    margin: 0;
+}
+.y{
+    color: yellow;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.o{
+    color: orange;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.a{
+    color: aqua;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.b{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}

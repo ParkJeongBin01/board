@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+<settings>
+    <setting name="mapUnderscoreToCamelCase" value="true"/>
+<!--                map=누구랑 누구를 매핑하겠다. -->
+<!--    EX) Underscore=firstName  CamelCase=first_name  왼쪽 두 녀석들을 매핑하겠다. sql과 자바 언어가 다르기에 설정을 해줌.-->
+</settings>
+
+    <typeAliases>
+        <package name="org.scoula.board.domain" />
+    </typeAliases>
+<!-- 이거 하면 resources :: BoardMapper.xml에 resultType="BoardVO"만 쓸 수 있다.-->
+</configuration>
